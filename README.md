@@ -66,8 +66,8 @@ OriginalTweet
 Sentiment-Target variable
 
 **Conclusion 1**
-1.We applied 7 models namely, Logistic Regression , Decision Tree Classifier with CV,Navie Bayes ,Multinomial Navies Bayes,Bernoulli Navies Bayes,KNN(K-Nearest Neighbours),Stochastic Gradient Descent,Support Vector Machine
+1.We applied eight different models, which included Logistic Regression with Grid Search CV, Decision Tree Classifier, Stochastic Gradient Descent, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Multinomial Naive Bayes, and Bernoulli Naive Bayes classifiers. These models were evaluated using both Count Vectorization and TF-IDF Vectorization techniques."
 
-2.We can deduce that the machine is producing the most optimal outcomes for the Stochastic Gradient Descent (using count vectorization) model, achieving an accuracy of 80.43%. This is closely followed by the Logistic Regression with Grid Search CV (employing TF/IDF vectorization) model, which attains an accuracy of 78.86%.
+2.We can deduce that the machine is performing very well in two different models for data analysis. The first model, which uses count vectorization in Stochastic Gradient Descent, is producing the best results with an accuracy of 80.43%. The second-best model is Logistic Regression with Grid Search CV, which uses TF/IDF vectorization and achieves an accuracy of 78.86%. This means that the machine is effectively learning from the data and making accurate predictions.
 
-3.In times to come, we will be able to redo the examination and juxtapose it with the current emotional assessment to measure the effects of the actions in practice.
+3.In the future, we'll have the ability to reevaluate the test and compare it with how we feel now to see how our actions have impacted us.
